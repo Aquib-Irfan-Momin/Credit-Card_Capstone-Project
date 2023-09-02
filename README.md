@@ -5,32 +5,51 @@ A bank's credit card department is one of the top adopters of data science. A to
 Customers must fill out a form, either physically or online, to apply for a credit card. The application data is used to evaluate the applicant's creditworthiness. The decision is made using the application data in addition to the Credit Bureau Score, such as the FICO Score in the US or the CIBIL Score in India, and other internal information on the applicants. Additionally, the banks are rapidly taking a lot of outside data into account to enhance the caliber of credit judgements.
 
 
-A. Basic information:
 
-1. ID (Individual ID)
+Variables in the dataset_1:
 
-2. Sex (male/female). 
+1.**Ind_ID**: Client ID
 
-3. Age ≥60 above years (true/false) 
+2.**Gender**: Gender information
 
-4. Test date (date when tested for COVID)
+3.**Car_owner**: Having car or not
 
-B. Symptoms: 
+4.**Propert_owner**: Having property or not
 
-5. Cough (true/false).
+5.**Children**: Count of children
 
-6. Fever (true/false). 
+6.**Annual_income**: Annual income
 
-7. Sore throat (true/false). 
+7.**Type_Income**: Income type
 
-8. Shortness of breath (true/false). 
+8.**Education**: Education level
 
-9. Headache (true/false). 
+9.**Marital_status**: Marital_status
 
-C. Other information: 
+10.**Housing_type**: Living style
 
-10. Known contact with an individual confirmed to have COVID-19 (true/false).
+11.**Birthday_count**: Use backward count from current day (0), -1 means yesterday.
 
-D. Covid report
+12.**Employed_days**: Start date of employment. Use backward count from current day (0). Positive value means, individual is currently unemployed.
 
-11. Corona positive or negative
+13.**Mobile_phone**: Any mobile phone
+
+14.**Work_phone**: Any work phone
+
+15.**Phone**: Any phone number
+
+16.**EMAIL_ID**: Any email ID
+
+17.**Type_Occupation**: Occupation
+
+18.**Family_Members**: Family size
+
+____________________________________________________________________________________________________________
+
+Variables in the dataset_2:
+
+1.**ID**: Same is Ind_ID
+
+2.**Label**: 1 is application approved and 0 is application rejected.
+
+
